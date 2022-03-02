@@ -1,0 +1,25 @@
+.navbar{
+    background-color: green;
+    height: 100px;
+    color: white;
+}
+main{
+    display: flex;
+}
+section{
+    display: flex;
+    flex: 1;
+    background-color: red;
+    height: 450px;
+    color: white;
+    margin: 5px;
+}
+.s1{
+    display: flex;
+    flex: 4;
+}
+footer{
+    background-color: orange;
+    height: 150px;
+    color: white;
+}

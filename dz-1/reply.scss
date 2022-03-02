@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+}
+.boxes-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+.box-1{
+    width: 300px;
+    height: 250px;
+    // background-color: rgba(0, 0, 0, 0.863);
+    margin-right: 40px;
+    text-align: center; 
+    transition-duration: 2s;
+    background-image: url("./gary-lopater-PBHwSmhyt9w-unsplash.jpg");
+    background-size: cover;
+}
+.box-1:hover{
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 5px #3a0ca3;
+    // background-color: #3a0ca3;
+    background-image: url("./gary-lopater-PBHwSmhyt9w-unsplash.jpg");
+
+}
+p{
+    opacity: 0;
+    color: white;
+    font-size: 22px;
+    transition-duration: 2s;
+}
+p:hover{
+    opacity: 1;
+    padding: 80px;
+    color: gray;
+}
+.box-2{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.863);
+    text-align: center;
+    transition-duration: 2s;
+    background-image: url("./walling-nMqqEFhInkY-unsplash.jpg");
+    background-size: cover;
+}
+.box-2:hover{
+    box-shadow: 0px 0px 10px 5px #3a0ca3;
+    background-color: #3a0ca3;
+    background-image: url("./walling-nMqqEFhInkY-unsplash.jpg");
+}
+.boxes-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+}
+.box-first{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.863);
+    margin-right: 40px;
+    text-align: center;
+    transition-duration: 2s;
+    background-image: url("./darshan-patel-VwKdWHFFC9Y-unsplash.jpg");
+    background-size: cover;
+}
+.box-first:hover{
+    box-shadow: 0px 0px 10px 5px #3a0ca3;
+    background-color: #3a0ca3;
+    background-image: url("./darshan-patel-VwKdWHFFC9Y-unsplash.jpg");
+}
+.box-second{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.863);
+    text-align: center;
+    transition-duration: 2s;
+    background-image: url("./kai-mason-eGNQ55_0cCA-unsplash.jpg");
+    background-size: cover;
+}
+.box-second:hover{
+    box-shadow: 0px 0px 10px 5px #3a0ca3;
+    background-color: #3a0ca3;
+    background-image: url("./kai-mason-eGNQ55_0cCA-unsplash.jpg");
+}
